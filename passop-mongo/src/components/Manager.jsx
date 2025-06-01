@@ -144,8 +144,8 @@ const Manager = () => {
       <div className="mx-auto max-w-5xl p-2  md:mycontainer min-h-[83.6dvh]  ">
         <h1 className='text-4xl font-bold text-center'>
           <span className="text-green-500">&lt;</span>
-          pass
-          <span className='text-green-500'>OP/&gt;</span></h1>
+          Lock
+          <span className='text-green-500'>It /&gt;</span></h1>
         <p className='text-green-700 text-lg text-center'>Your own password manager</p>
 
         <div className="flex flex-col p-4 text-black gap-8 items-center">
