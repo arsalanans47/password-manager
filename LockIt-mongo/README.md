@@ -1,6 +1,6 @@
 # 🔐 LockIt – A Simple Password Manager
 
-LockIt is a lightweight, front-end password manager built with **React + Vite** and styled using **Tailwind CSS**. It allows users to add, view, and manage their saved passwords securely within the browser using **localStorage** — no backend, no login, no encryption.
+LockIt is a full-stack password manager built with **React + Vite**, styled using **Tailwind CSS**, and powered by a **Node.js** backend with **MongoDB** for data storage. It allows users to add, view, and manage their saved passwords securely — no login, no encryption.
 
 > ⚠️ For personal experiments or learning purposes only — not intended for production or storing real credentials.
 
@@ -14,9 +14,10 @@ LockIt is a lightweight, front-end password manager built with **React + Vite** 
 
 ## 🛠️ Tech Stack
 
-- ⚛️ **React (Vite)**
-- 🎨 **Tailwind CSS**
-- 💾 **LocalStorage** (for storing password data)
+- ⚛️ **React (Vite)** - Fast and modern frontend framework with Vite for optimized builds.
+- 🎨 **Tailwind CSS** - Utility-first CSS framework for responsive and intuitive UI.
+- 🗄️ **MongoDB** - NoSQL database for persistent and scalable password storage.
+- 🌐 **Node.js** - Backend server to handle API requests and database operations.
 
 ---
 
@@ -51,12 +52,10 @@ LockIt is a lightweight, front-end password manager built with **React + Vite** 
 
 ## ✨ Features
 
-- 📋 Add, view, and delete saved passwords
-- 🌐 Works completely offline
-- 💾 Persists data using `localStorage`
-- 📱 Responsive UI with Tailwind CSS
-- 🧩 Modular code with React components
-
+- 📋 Add, view, and delete saved passwords via a secure backend.
+- 🗄️ Persists data using MongoDB for scalability and reliability.
+- 📱 Responsive UI with Tailwind CSS for seamless cross-device experience.
+- 🧩 Modular code with React components for maintainability.
 ---
 
 ## 📦 Installation & Running
@@ -71,25 +70,24 @@ npm install
 
 # 3. Run the development server
 npm run dev
-
-# 4. Open your browser
-http://localhost:5173
 ```
 
 ---
 
 ## 📂 Backend Note
 
-The `/backend` folder is currently unused but serves as a placeholder for future enhancements like encryption or server-side storage.
+
+The `/backend` folder contains a functional Node.js server (server.js) that connects to MongoDB for storing and retrieving password data.
+Ensure the MongoDB URI is correctly configured in the `.env` file.
 
 ---
 
 ## 🧠 Future Improvements
 
-- 🔐 Add encryption for stored passwords
-- 👤 User login/authentication
-- ☁️ Cloud sync with a database
-- 📱 Mobile-friendly UI enhancements
+-  🔐 Add encryption for stored passwords.
+-  👤 User login/authentication.
+-  ☁️ Cloud sync with a database.
+-  📱 Mobile-friendly UI enhancements.
 
 ---
 
