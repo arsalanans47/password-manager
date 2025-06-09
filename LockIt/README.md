@@ -24,11 +24,6 @@ LockIt is a lightweight, front-end password manager built with **React + Vite** 
 
 ```
 /
-├── backend/                  # Node server (optional or placeholder)
-│   ├── node_modules/
-│   ├── .env
-│   ├── package.json
-│   ├── server.js
 ├── public/
 │   └── icons/, vite.svg      # Public assets
 ├── src/
@@ -75,12 +70,6 @@ npm run dev
 # 4. Open your browser
 http://localhost:5173
 ```
-
----
-
-## 📂 Backend Note
-
-The `/backend` folder is currently unused but serves as a placeholder for future enhancements like encryption or server-side storage.
 
 ---
 
