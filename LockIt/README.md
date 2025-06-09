@@ -8,7 +8,7 @@ LockIt is a lightweight, front-end password manager built with **React + Vite** 
 
 ## 🚀 Demo
 
-![App Screenshot](./public/icons/vite.svg) <!-- Replace with actual screenshot or GIF later -->
+![App Screenshot](https://github.com/arsalanans47/password-manager/blob/598b9327aaf39159391c1fee6689a7eea083d754/LockIt-mongo/Screenshot.png) <!-- Replace with actual screenshot or GIF later -->
 
 ---
 
